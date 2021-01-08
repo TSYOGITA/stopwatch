@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <style>
+      .titl {
+        color: purple;
+      }
+      .container {
+        background-color: pink;
+        margin: 10% auto;
+        padding: 50px;
+        text-align: center;
+        border-radius: 10px;
+      }
+      #seconds,
+      #tens,
+      #hi {
+        font-size: 50px;
+      }
+      button {
+        border-color: rebeccapurple;
+        color: red;
+        background-color: pink;
+        width: 150px;
+        height: 50px;
+      }
+      button:hover {
+        background-color: powderblue;
+        color: seagreen;
+      }
+    </style>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <img class="img-fluid rounded-circle" src="clock.jpg" alt="clock" />
+      <h1 class="titl">VANILLA JAVASCRIPT STOPWATCH</h1>
+      <span id="seconds">00</span> <span id="hi">:</span
+      ><span id="tens">00</span>
+      <br />
+      <br />
+      <button id="start-btn">START</button>
+      <button id="stop-btn">STOP</button>
+      <button id="restart-btn">RESTART</button>
+    </div>
+  </body>
+</html>
